@@ -1,17 +1,25 @@
-# ngrok build script
+# ngrok脚本
 
-> A simple shell script for ngrok building with ubuntu
+> 一个简单的编译ngrok的shell脚本
 
 
-# How to install?
+# 如何安装
 
-Use wget:
+## 获取脚本并编译
+使用wget:
 ```sh
-wget -qO- https://raw.githubusercontent.com/calidion/ngrok/master/build.sh | sh
+wget -qO- https://raw.githubusercontent.com/calidion/ngrok/master/build.sh | sh  [yourdomain.com]
 ```
 
-User curl:
+使用curl:
 
 ```sh
-curl -o- https://raw.githubusercontent.com/calidion/ngrok/master/build.sh | sh
+curl -o- https://raw.githubusercontent.com/calidion/ngrok/master/build.sh | sh [yourdomain.com]
 ```
+## 运行
+
+运行 
+```
+./start.sh
+```
+
